@@ -3,6 +3,8 @@ import { FaLocationArrow } from 'react-icons/fa6';
 import MagicButton from './MagicButton';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
+import Image from 'next/image';
+import Profile from '@/public/pro.png';
 
 const Hero = () => {
 	return (
@@ -41,9 +43,14 @@ const Hero = () => {
 
 			<div className="flex justify-center relative my-20 z-10">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-					<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+					{/* <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
 						Dynamic Web Magic with Next.js
-					</p>
+					</p> */}
+					<Image
+						src={Profile}
+						alt="My profile"
+						className="w-64 h-64 rounded-full object-cover"
+					/>
 
 					{/**
 					 *  Link: https://ui.aceternity.com/components/text-generate-effect
