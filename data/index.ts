@@ -49,7 +49,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: 'I love explore new features',
+		title: 'I love exploring new features',
 		description: 'The Inside Scoop',
 		className: 'md:col-span-3 md:row-span-2',
 		imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -83,7 +83,7 @@ export const projects = [
 		title: 'LifeSync App & Admin Dashboard',
 		des: 'Engineered the LifeSync app with Expo for real-time Bluetooth syncing, SOS alerts, and location tracking, plus an admin dashboard with GraphQL analytics.',
 		img: '/lifesync.png',
-		iconLists: ['/expo.svg', '/next.svg', '/dock.svg', 'git.svg'],
+		iconLists: ['/next.svg', '/dock.svg', 'git.svg'],
 		link: 'https://lifesync.cc',
 	},
 	{
