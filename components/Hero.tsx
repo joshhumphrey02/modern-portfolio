@@ -63,16 +63,24 @@ const Hero = () => {
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hi! I&apos;m Humphrey, a Next.js Developer based in Nigeria.
+						Hi! I&apos;m Humphrey, a Full Stack Developer.
 					</p>
-
-					<a href="#about">
-						<MagicButton
-							title="Show my work"
-							icon={<FaLocationArrow />}
-							position="right"
-						/>
-					</a>
+					<div className="flex flex-col md:flex-row gap-4">
+						<a href="#projects">
+							<MagicButton
+								title="Show my work"
+								icon={<FaLocationArrow />}
+								position="right"
+							/>
+						</a>
+						<a target="_blank" href="resume.html">
+							<MagicButton
+								title="My Resume"
+								icon={<FaLocationArrow />}
+								position="right"
+							/>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

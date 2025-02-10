@@ -49,7 +49,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: 'Currently building a Service Attendance Web App',
+		title: 'I love explore new features',
 		description: 'The Inside Scoop',
 		className: 'md:col-span-3 md:row-span-2',
 		imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -72,68 +72,70 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: 'An Electronic Ecommerce Admin',
-		des: 'An admin software with modern features built with the latest tech stack.',
-		img: '/p1.png',
+		title: 'Dinovate Solutions Web Platform',
+		des: 'Designed and built a responsive web application with engaging animations, admin dashboard, and dynamic content management.',
+		img: '/dinovate.png',
 		iconLists: ['/re.svg', '/next.svg', '/tail.svg', '/ts.svg'],
-		link: 'https://seller-anchorage.web.app',
+		link: 'https://dinovate.com',
 	},
 	{
 		id: 2,
-		title: 'A simple personal website',
-		des: 'Simplify your mountain experience with your friends.',
-		img: '/p3.png',
-		iconLists: ['/next.svg', '/tail.svg', '/ts.svg'],
-		link: 'https://hikeking.web.app',
+		title: 'LifeSync App & Admin Dashboard',
+		des: 'Engineered the LifeSync app with Expo for real-time Bluetooth syncing, SOS alerts, and location tracking, plus an admin dashboard with GraphQL analytics.',
+		img: '/lifesync.png',
+		iconLists: ['/expo.svg', '/next.svg', '/dock.svg', 'git.svg'],
+		link: 'https://lifesync.cc',
 	},
-	// {
-	// 	id: 3,
-	// 	title: 'AI Image SaaS - Canva Application',
-	// 	des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-	// 	img: '/p3.png',
-	// 	iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-	// 	link: '/ui.aiimg.com',
-	// },
-	// {
-	// 	id: 4,
-	// 	title: 'Animated Apple Iphone 3D Website',
-	// 	des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-	// 	img: '/p4.svg',
-	// 	iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-	// 	link: '/ui.apple.com',
-	// },
+	{
+		id: 3,
+		title: 'Mynebor Technologies Admin Dashboard',
+		des: 'Developed an admin dashboard for gated community tools with React, including transaction tracking and subscription analytics.',
+		img: '/mynebor.png',
+		iconLists: ['/fm.svg', '/tail.svg', '/next.svg', '/dock.svg', 'git.svg'],
+		link: 'https://mynebor.com',
+	},
+	{
+		id: 4,
+		title: 'HOTR Port Harcourt Member System',
+		des: 'Built a church member scan system to monitor attendance, integrated real-time analytics, and created an admin dashboard for data management.',
+		img: '/hotr.png',
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
+		link: 'https://member.hotrportharcourt.com',
+	},
+	{
+		id: 5,
+		title: 'Agcoms International',
+		des: 'Developed a corporate web application featuring modern designs, dynamic content updates, and a scalable backend.',
+		img: '/agcoms.png',
+		iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/c.svg'],
+		link: 'https://www.agcomsinternational.com',
+	},
 ];
 
 export const testimonials = [
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: 'Michael Johnson',
-		title: 'Director of AlphaStream Technologies',
+			'Working with Humphrey on the LifeSync app was an absolute pleasure. He understood our needs and delivered a solution that has truly transformed how we support our users. His professionalism and dedication made all the difference.',
+		name: 'Franca Austin-opara',
+		title: 'CEO of LifeSync Health',
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: 'Michael Johnson',
-		title: 'Director of AlphaStream Technologies',
+			"Humphrey’s work on our platform was nothing short of amazing. He brought our vision to life with incredible attention to detail and a deep understanding of our goals. We're so grateful for his expertise and partnership.",
+		name: 'Temidayo Ibitoye',
+		title: 'CEO and Founder',
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: 'Michael Johnson',
-		title: 'Director of AlphaStream Technologies',
+			'Humphrey developed a system that has been a game changer for our church. It’s simple to use, highly effective, and perfectly tailored to our needs. His work has been a blessing to our community.',
+		name: 'Pastor Lanre Oluseye',
+		title: 'Head Pastor HOTR Port Harcourt',
 	},
 	{
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: 'Michael Johnson',
-		title: 'Director of AlphaStream Technologies',
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: 'Michael Johnson',
-		title: 'Director of AlphaStream Technologies',
+			'Humphrey’s contributions to Mynebor Technologies have been invaluable. The solutions he provided have streamlined our operations and improved how we serve our users.',
+		name: 'Akuma Isaac',
+		title: 'CEO of Mynebor Technologies',
 	},
 ];
 
@@ -173,29 +175,29 @@ export const companies = [
 export const workExperience = [
 	{
 		id: 1,
-		title: 'Frontend Engineer',
-		desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+		title: 'Full Stack Developer - Dinovate Solutions',
+		desc: 'Built a responsive web platform with Next.js, GSAP animations, and dynamic content management. Designed an intuitive admin dashboard with Prisma and PostgreSQL integration.',
 		className: 'md:col-span-2',
 		thumbnail: '/exp1.svg',
 	},
 	{
 		id: 2,
-		title: 'Mobile App Dev - MyNebor Technologies',
-		desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
-		className: 'md:col-span-2', // change to md:col-span-2
+		title: 'Software Developer - LifeSync Technologies',
+		desc: 'Engineered the LifeSync app with Expo, integrating real-time SOS alerts, Bluetooth smartwatch syncing, and admin dashboard features using GraphQL and Redis.',
+		className: 'md:col-span-2',
 		thumbnail: '/exp2.svg',
 	},
 	{
 		id: 3,
-		title: 'Freelance Frontend Developer Project',
-		desc: 'Designed and built a modern React JS Admin Dashboard, from initial concept to deployment on app stores.',
-		className: 'md:col-span-2', // change to md:col-span-2
+		title: 'Frontend Developer - Mynebor Technologies',
+		desc: 'Developed a robust admin dashboard for managing transactions and subscriptions. Enhanced the mobile app UI with reusable, modern components for seamless user experience.',
+		className: 'md:col-span-2',
 		thumbnail: '/exp3.svg',
 	},
 	{
 		id: 4,
-		title: 'Lead Frontend Developer',
-		desc: 'Developed and maintained user-interative features using modern frontend technologies.',
+		title: 'Full Stack Developer - HOTR Port Harcourt',
+		desc: 'Built a church member scan system for attendance monitoring, integrated analytics, and designed an admin dashboard for efficient member management.',
 		className: 'md:col-span-2',
 		thumbnail: '/exp4.svg',
 	},
@@ -205,13 +207,15 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: '/git.svg',
+		link: 'https://github.com/joshhumphrey02',
 	},
+	// {
+	// 	id: 2,
+	// 	img: '/twit.svg',
+	// },
 	{
 		id: 2,
-		img: '/twit.svg',
-	},
-	{
-		id: 3,
 		img: '/link.svg',
+		link: 'https://www.linkedin.com/in/joshhumphrey02/',
 	},
 ];
