@@ -88,7 +88,7 @@ export const projects = [
 	},
 	{
 		id: 3,
-		title: 'Mynebor Technologies Admin Dashboard',
+		title: 'MyNebor Technologies Admin Dashboard',
 		des: 'Developed an admin dashboard for gated community tools with React, including transaction tracking and subscription analytics.',
 		img: '/mynebor.png',
 		iconLists: ['/fm.svg', '/tail.svg', '/next.svg', '/dock.svg', 'git.svg'],
